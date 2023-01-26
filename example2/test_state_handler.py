@@ -1,5 +1,5 @@
 class TestStateHandler:
-    # This class helps to handle how many times we already run certain test
+    # This class helps to handle how many times we have already run certain test
     # to figure out when set enableVideo to True from BrowserCapabilitiesHandler class
 
     def __init__(self):
