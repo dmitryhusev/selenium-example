@@ -1,0 +1,5 @@
+allure-pytest==2.9.45
+pytest==6.2.5
+selenium==3.141.0
+pytest-xdist==2.4.0
+pytest-rerunfailures==9.1.1
