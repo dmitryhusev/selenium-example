@@ -4,12 +4,13 @@ Run tests like this:
 
 cd example2
 
-pytest --reruns=1 -v --tb=short --alluredir=results tests/test2.py
+`pytest --reruns=1 -v --tb=short --alluredir=results tests/test2.py
+`
 
 where:
-    -v: rich output
-    --tb=short: traceback is not too long
-    --alluredir=result: folder to store results
+1.     -v: rich output
+2.     --tb=short: traceback is not too long
+3.     --alluredir=result: folder to store results
 
 Once tests are executed run allure serve results command to see the results in the browser
 - passed test does not contain screenshot
