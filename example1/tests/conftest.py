@@ -12,7 +12,7 @@ def pytest_exception_interact(node):
 
 @pytest.fixture
 def browser():
-    br = webdriver.Chrome()
+    br = webdriver.Firefox()
     br.maximize_window()
     yield br
     br.quit()
